@@ -1,0 +1,97 @@
+form {
+  text-align: left;
+  margin: 100px 20px 50px;
+}
+h1,
+h2 {
+  margin: 20px 20px 10px;
+  color: #35d0ba;
+}
+h1 {
+  font-size: 60px;
+  position: relative;
+  top: 75px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  top: -35px;
+  
+}
+a {
+  color: #35d0ba;
+  text-decoration: none;
+}
+.container {
+  font-family: "Roboto Mono", monospace;
+}
+
+.search {
+  width: 550px;
+  height: 35px;
+}
+
+.sun-icon {
+  color: #ffcd3c;
+  margin: 0 30px;
+  font-size: 108px;
+  position: relative;
+  top: -40px;
+  left: 220px;
+}
+
+.weekday {
+  color: gray;
+  margin: 0 20px;
+  font-size: 24px;
+  position: relative;
+  top: -55px;
+}
+
+.date {
+  color: gray;
+  margin: 0 20px 40px;
+  font-size: 24px;
+  position: relative;
+  top: -55px;
+}
+
+.weather-icons{
+  text-align: center;
+  font-size: 72px;
+  margin: 30px 0 15px;
+}
+
+.cloudy {
+  color: #ffdc71;
+}
+
+.clouds {
+  color: #3885a3;
+}
+
+.rain {
+  color: #35a4d0;
+}
+
+.sun {
+  color: #ffcd3c;
+}
+
+.temperature {
+  color: #35d0ba;
+  text-align: center;
+  font-size: 48px;
+}
+
+.col-weekday,
+.col-date {
+  color: grey;
+  text-align: center;
+  font-size: 24px;
+}
+.col-weekday {
+  margin: 20px 0 0;
+}
+

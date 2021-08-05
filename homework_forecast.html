@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7d0bbddace.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Forecast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <input type="text" placeholder="Type to search" class="search" id="cityToSearch" />
+        <button type="submit" class="btn btn-primary">Search</button>
+        <button type="button" class="btn btn-warning" id="currentLocation">Current</button>
+      </form>
+      <h1><span id="temperature">24</span>°<a href="#0" id="celsius">C</a>/<a href="#0" id="farenheit">F</a></h1>
+      <i class="fas fa-sun sun-icon"></i>
+      <h2>Paris, France</h2>
+      <br />
+      <p class="weekday"id="weekdayHour"></p>
+      <p class="date">July 21st, 2021</p>
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 15rem">
+            <p class="card-text col-weekday">Thursday</p>
+            <p class="card-text col-date">July 22nd.</p>
+            <i class="fas fa-cloud-sun weather-icons cloudy"></i>
+            <div class="card-body">
+              <h5 class="card-title temperature">21°C</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 15rem">
+            <p class="card-text col-weekday">Friday</p>
+            <p class="card-text col-date">July 23rd</p>
+            <i class="fas fa-cloud weather-icons clouds"></i>
+            <div class="card-body">
+              <h5 class="card-title temperature">18°C</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 15rem">
+            <p class="card-text col-weekday">Saturday</p>
+            <p class="card-text col-date">July 24th</p>
+            <i class="fas fa-cloud-showers-heavy weather-icons rain"></i>
+            <div class="card-body">
+              <h5 class="card-title temperature">16°C</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 15rem">
+            <p class="card-text col-weekday">Sunday</p>
+            <p class="card-text col-date">July 25th</p>
+            <i class="fas fa-sun weather-icons sun"></i>
+            <div class="card-body">
+              <h5 class="card-title temperature">19°C</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 15rem">
+            <p class="card-text col-weekday">Monday</p>
+            <p class="card-text col-date">July 26th</p>
+            <i class="fas fa-cloud-sun weather-icons cloudy"></i>
+            <div class="card-body">
+              <h5 class="card-title temperature">23°C</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
