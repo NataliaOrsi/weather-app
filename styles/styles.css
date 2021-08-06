@@ -23,6 +23,9 @@ a {
   color: #35d0ba;
   text-decoration: none;
 }
+footer {
+  margin-top: 20px;
+}
 .container {
   font-family: "Roboto Mono", monospace;
 }
